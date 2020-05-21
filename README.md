@@ -1,4 +1,4 @@
-![alt text](https://github.com/arthurramires/backend-gobarber/master/assets/mustache.png)
+![alt text](https://github.com/arthurramires/backend-gobarber/tree/master/assets/mustache.png)
 
 
 # Backend GoBarber
