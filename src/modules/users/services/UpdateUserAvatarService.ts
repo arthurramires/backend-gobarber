@@ -4,9 +4,9 @@ import { injectable, inject } from 'tsyringe';
 
 import uploadConfig from '@config/upload';
 import AppError from '@shared/errors/AppError';
+import IStorageProvider from '@shared/container/providers/StorageProvider/models/iStorageProvider';
 import User from '../infra/typeorm/entities/User';
 import IUsersRepository from '../repositories/iUsersRepository';
-import IStorageProvider from '@shared/container/providers/StorageProvider/models/iStorageProvider';
 
 interface IRequest {
   user_id: string;
