@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-
+import 'dotenv/config';
 import express, { Response, NextFunction, Request } from 'express';
 import cors from 'cors';
 import { errors } from 'celebrate';
